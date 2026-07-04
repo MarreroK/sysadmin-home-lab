@@ -13,10 +13,10 @@ Windows virtual machine was installed and configured using a local account. Syst
 - Proper resource allocation is important for system stability and performance 
 - Basic understanding of virtualization concepts in IT environments 
 ## Lab 2 - Active Directory Domain Services
-Installed Active Directory Domain Services (AD DS) and promoted the server to a Domain Controller
 ![Active Directory Installation](AD-installation.png)
 This shows the AD DS successfully installed on the Windows Server
 ![Active Directory Installation](domain-creation.png)
+This shows the server being promoted to a Domain Controller and the creation of the lab.local domain
 ### What I learned
 - How Active Directory centralizes user and computer management 
 - Difference between local machine and domain environment
