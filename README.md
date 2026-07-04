@@ -14,8 +14,6 @@ Windows virtual machine was installed and configured using a local account. Syst
 - Basic understanding of virtualization concepts in IT environments 
 ## Lab 2 - Active Directory Domain Services
 Installed Active Directory Domain Services (AD DS) and promoted the server to a Domain Controller
-### Domain Name 
-lab.local
 ![Active Directory Installation](AD-installation.png)
 This shows the AD DS successfully installed on the Windows Server
 ![Active Directory Installation](domain-creation.png)
