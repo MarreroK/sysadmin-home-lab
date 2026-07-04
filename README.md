@@ -5,8 +5,9 @@ Windows Server successfully booted.
 ![Windows 11 System Info](win11-about.png)
 Windows virtual machine was installed and configured using a local account. System information was verifies in the About section.
 ### Troubleshooting
-- VM froze at login > fixed by restarting VirtualBox
-- ISO didn't boot > re-attached virtual disk
+- VM froze at login > fixed by restarting VirtualBox and adjusting display settings
+- ISO didn't boot > resolved by removing and re-attaching the virtual optical drive
 ### What I learned 
-- How virtual machines simulate real servers 
-- Basic Windows Server installation
+- Virtual machines rely on host hardware resources (CPU, RAM, disk)
+- Proper resource allocation is important for system stability and performance 
+- Basic understanding of virtualization concepts in IT environments 
