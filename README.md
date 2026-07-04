@@ -16,7 +16,7 @@ Windows virtual machine was installed and configured using a local account. Syst
 ![Active Directory Installation](AD-installation.png)
 This shows the AD DS successfully installed on the Windows Server
 ![Active Directory Installation](domain-creation.png)
-This shows the server being promoted to a Domain Controller and the creation of the lab.local domain
+Installed Active Directory Domain Services (AD DS) and promoted the Windows Server to a Domain Controller for lab.local
 ### What I learned
 - How Active Directory centralizes user and computer management 
 - Difference between local machine and domain environment
