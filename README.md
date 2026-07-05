@@ -22,7 +22,6 @@ Installed Active Directory Domain Services (AD DS) and promoted the Windows Serv
 ### Troubleshooting
 - Resolved installation steps using default settings in Server Manager 
 ## Lab 3
-![Active Directory Installation](client-joined-domain.png)
 ![Active Directory Installation](AD-computer-object.png)
 The client machine was successfully joined to the lab.local domain and automatically registered in Active Directory under Computers container
 ![Active Directory Installation](DNS-resolution.png)
