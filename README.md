@@ -34,3 +34,18 @@ Created Reverse Lookup Zone for IP-to-hostname resolution
 Proper name resolution requires both forward (A records) and reverse (PTR records) zones
 Incorrect network settings can break domain communication
 Troubleshooting usually starts with checking IP and DNS settings and tools like nslookup and flushing DNS help verify and refresh name resolution
+## Lab 4
+### Steps Performed
+Created a Group Policy Object in Active Directory
+Created and used a dedicated Organizational Unite (Workstations)
+Linked GPO to Workstations OU
+Configured policy to restrict Control Panel access
+Applied policy using gpupdate /force
+Verified policy using gpresult /r
+![Active Directory Installation](GPO-control-policy.png)
+![Active Directory Installation](GPO-policy-enabled.png)
+![Active Directory Installation](GPresult-verification.png)
+### Troubleshooting 
+Group Policy did bnot initially apply to client > Forced policy update using gpupdate /force and verified successful application using gpresult /r
+### What I learned 
+Group Policy allows centralized management of users and compiters in an Actyive Directory domain
