@@ -21,3 +21,17 @@ Installed Active Directory Domain Services (AD DS) and promoted the Windows Serv
 - Difference between local machine and domain environment
 ### Troubleshooting
 - Resolved installation steps using default settings in Server Manager 
+## Lab 3
+![Active Directory Installation](client-joined-domain.png)
+![Active Directory Installation](AD-computer-object.png)
+The client machine was successfully joined to the lab.local domain and automatically registered in Active Directory under Computers container
+![Active Directory Installation](DNS-resolution.png)
+DNS resolution was verified from the client machine confirming proper communication with the Domain Controller
+### Troubleshooting
+Client could not communicate with Domain Controller due to incorrect network setting (NAT) > Changed network to Internal Network. Static IP addressing was configured for both the server and client. After running ipconfig verification and flushing DNS, domain join functionality worked successfully
+### Extra Configurations
+Created Reverse Lookup Zone for IP-to-hostname resolution
+### What I learned
+Proper name resolution requires both forward (A records) and reverse (PTR records) zones
+Incorrect network settings can break domain communication
+Troubleshooting usually starts with checking IP and DNS settings and tools like nslookup and flushing DNS help verify and refresh name resolution
