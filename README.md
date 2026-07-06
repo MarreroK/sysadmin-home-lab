@@ -49,3 +49,15 @@ Verified policy using gpresult /r
 Group Policy did bnot initially apply to client > Forced policy update using gpupdate /force and verified successful application using gpresult /r
 ### What I learned 
 Group Policy allows centralized management of users and compiters in an Actyive Directory domain
+## Lab 5 
+## Steps Performed 
+Created Employee Users OU to store domain user accounts
+Created Groups OU to store security groups
+Confirmed Workstations OU for client machines 
+Created Domain Users, Security Groups, and assigned Users to Groups (RBAC)
+Verified Group membership 
+![Active Directory Installation](security_groups.png)
+![Active Directory Installation](users-created.png)
+![Active Directory Installation](security_groups.png)
+### What I learned 
+Group Policy allows centralized management of users and compiters in an Actyive Directory domain
