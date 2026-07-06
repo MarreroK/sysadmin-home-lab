@@ -58,6 +58,9 @@ Created Domain Users, Security Groups, and assigned Users to Groups (RBAC)
 Verified Group membership 
 ![Active Directory Installation](security_groups.png)
 ![Active Directory Installation](users-created.png)
-![Active Directory Installation](security_groups.png)
+![Active Directory Installation](RBAC-group-membership.png)
 ### What I learned 
-Group Policy allows centralized management of users and compiters in an Actyive Directory domain
+Role-Based Access Control (RBAC) is based on group membership, not individual users
+Active Directory uses groups to simplify permission management 
+Users inherit access rights through secuirty groups
+Proper OU structure improves organization and scalability in AD environments 
