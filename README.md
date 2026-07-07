@@ -64,3 +64,37 @@ Role-Based Access Control (RBAC) is based on group membership, not individual us
 Active Directory uses groups to simplify permission management 
 Users inherit access rights through secuirty groups
 Proper OU structure improves organization and scalability in AD environments 
+## Lab 6 Windows File Server and NTFS Permissions
+## Steps Performed
+Created a shared folder structure on Windows Server:
+-Finance
+-HR
+-IT
+Created Active Directory security groups:
+- Finance_RW
+- HR_RW
+- IT_Admins
+Added users to the correct security groups
+Configured Share permissions for network access
+Configured NTFS permissions:
+-Finance_RW > Modify
+HR_RW > Modify
+- IT Admins > Full Control
+Tested folder asccess from a Windows client machine using domain users
+Verified permissions using:
+- Security tab 
+- Advanced Security Settings
+- Effective Access
+- Active Directory group membership
+## What I learned 
+Difference between Share permissions and NTFS permissions
+How Windows combines permissions and aspplies the most restrictive access
+How inheritance works with folders and files
+How to troubleshoot access issues using Effective Access and user group memberhsip
+## Troubleshooing
+Investigated incorrect user access to shared folders by reviewing NTFS permissions, inheritance, and group membership
+Used Active Directory, whoami /groups, and Effective Access to verify user permissions 
+Identified Share permissions werer limiting write access and adjusted the configuration 
+Tested access from the client machine usiong different domain users to confirm permissions were working correctly
+Used UNCR pathes ('\\ServerName\Shares') to troubleshoot network share access
+
